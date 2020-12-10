@@ -1,3 +1,11 @@
 size(600,600);
-ellipse(170,360, 200, 200);
+fill(255,0,0,100);
 ellipse(100,260, 200, 200);
+fill(0,255,0,100);
+ellipse(230,260,200,200);
+fill(0,0,255,100);
+ellipse(170,360, 200, 200);
+textSize(24);
+text("Funny", 50, 240);
+text("Optimistic", 130, 390);
+text("Humble",220,240);
