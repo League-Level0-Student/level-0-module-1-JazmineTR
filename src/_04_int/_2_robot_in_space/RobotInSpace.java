@@ -4,6 +4,7 @@
 
 package _04_int._2_robot_in_space;
 
+import java.applet.Applet;
 import java.applet.AudioClip;
 import java.awt.KeyEventDispatcher;
 import java.awt.KeyboardFocusManager;
@@ -71,6 +72,7 @@ if(keyPressed == 39) {
 		rob.setSpeed(10);
 	}
 
+	@Override
 	public boolean dispatchKeyEvent(KeyEvent e) {
 		if (e.getID() == KeyEvent.KEY_PRESSED) {
 			try {
@@ -90,7 +92,7 @@ if(keyPressed == 39) {
 	public void playEureka() {
 		System.out.println("EUREKA!");
 		try {
-			AudioClip sound = JApplet.newAudioClip(getClass().getResource("r2d2-eureka.wav"));
+			AudioClip sound = Applet.newAudioClip(getClass().getResource("r2d2-eureka.wav"));
 			sound.play();
 			Thread.sleep(3400);
 		} catch (Exception ex) {

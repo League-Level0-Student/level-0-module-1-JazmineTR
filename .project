@@ -14,11 +14,4 @@
 	<natures>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
-	<linkedResources>
-		<link>
-			<name>src/_04_int/_3_zombie_eyes/zombie_eyes/face.png</name>
-			<type>1</type>
-			<locationURI>PARENT-3-PROJECT_LOC/headless/Desktop/face.png</locationURI>
-		</link>
-	</linkedResources>
 </projectDescription>
